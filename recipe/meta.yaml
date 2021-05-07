@@ -1,6 +1,6 @@
 {% set name = "pyrate-limiter" %}
-{% set version = "2.3.2" %}
-{% set hash_val = "a58b75193d5c6125fcd2492226cfd58bf51713bc5ac126173b45512709c4a4c4" %}
+{% set version = "2.3.3" %}
+{% set hash_val = "980c97655de8661efe0ee7c43189719947a59b4cfdbc8e5b81d4ca02409b9646" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ hash_val }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - cover = scripts:cover
@@ -21,11 +21,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.6
     - pip
     - poetry
   run:
-    - python >=3.7
+    - python >=3.6
 
 test:
   imports:
