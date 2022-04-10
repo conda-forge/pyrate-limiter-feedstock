@@ -1,6 +1,6 @@
 {% set name = "pyrate-limiter" %}
-{% set version = "2.7.0" %}
-{% set hash_val = "b5fb759c7d61638aadbb1532e86c1f32e1924c03ddf4c6759435c25b66233ebb" %}
+{% set version = "2.8.0" %}
+{% set hash_val = "1044895c9c3e37ee50a9b449e5f0d67a7995a8d456361f05c6e8afd44c8dcaec" %}
 
 package:
   name: {{ name|lower }}
