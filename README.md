@@ -1,11 +1,11 @@
-About pyrate-limiter
-====================
+About pyrate-limiter-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyrate-limiter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/vutran1710/PyrateLimiter
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyrate-limiter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python rate limiter using Leaky-Bucket Algorithm Family
 
