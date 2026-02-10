@@ -1,6 +1,6 @@
 {% set name = "pyrate-limiter" %}
-{% set version = "3.9.0" %}
-{% set hash_val = "6b882e2c77cda07a241d3730975daea4258344b39c878f1dd8849df73f70b0ce" %}
+{% set version = "4.0.2" %}
+{% set hash_val = "b678841e2215f114ef6f98c7093755ca3b466de83cb5a881231fd6e321fa14b5" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - poetry
+    - hatchling
   run:
     - python >={{ python_min }}
 
