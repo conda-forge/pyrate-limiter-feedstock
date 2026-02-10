@@ -23,7 +23,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - poetry
+    - hatchling
   run:
     - python >={{ python_min }}
 
